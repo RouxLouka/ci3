@@ -11,7 +11,7 @@ class Login extends CI_Controller {
  
 	public function index()
 	{
-		$this->load->view('vw_login');
+		$this->load->view('user/login_us');
 	}
  
 	public function proses()
